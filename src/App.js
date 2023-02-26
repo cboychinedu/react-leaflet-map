@@ -62,10 +62,14 @@ class App extends Component {
                 </Popup>
               </Circle>
 
-              <CircleMarker center={[51.505, -0.109]} radius={90} color="yellow">
+              <CircleMarker center={[51.505, -0.109]} radius={100} color="red">
                 <Popup>
                   A pretty CSS3 popup. <br /> Easily customizable.
                 </Popup>
+              </CircleMarker>
+
+              <CircleMarker center={[51.505, -0.109]} radius={50} color="yellow">
+                
               </CircleMarker>
 
             {
